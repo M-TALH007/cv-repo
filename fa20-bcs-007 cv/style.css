@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body{
+	background: #cac9cf;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.cv{
+	display: flex;
+	width: 900px;
+	margin: 5px auto;
+	background: #fff;
+	padding: 10px;
+}
+
+.cv_left{
+	width: 40%;
+	background: #26252d;
+}
+
+.cv_image{
+	width: 100%;
+}
+
+.cv_image img{
+	width: 100%;
+	display: block;
+}
+
+.cv_bottom{
+	padding: 20px 30px;
+}
+
+.cv_title{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+}
+
+.cv_info{
+	color: #84838b;
+}
+
+
+
+.cv_line{
+	padding: 20px 0;
+	border-bottom: 1px solid #0175b2;
+}
+
+.cv_line:last-child{
+	border-bottom: 0px;
+}
+
+.cv_namerole .name{
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 5px;
+	letter-spacing: 4px;
+}
+ .cv_namerole .role{
+	color: #84838b;
+}
+
+.cv_contact .cv_info:last-child{
+	 margin-top: 10px;
+}
+
+.cv_contact .cv_subtitle{
+	color: #fff;
+	margin-bottom: 2px;
+}
+
+.cv_skills .skills_list{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.cv_skills .skills_list .skills_bar p{
+	position: relative;
+	width: 125px;
+    height: 20px;
+    background: #fff;
+}
+
+.cv_skills .skills_list .skills_bar p span{	
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0175b2;
+	width: 100%;
+	height: 100%;
+}
+
+.cv .cv_right{
+	width: 75%;
+	padding: 20px 40px;
+	color: #26252d;
+}
+
+.cv_namerole .name{
+	color: #26252d;
+	font-size: 32px;
+}
+
+.cv_namerole .role{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.cv_line .cv_title{
+	color: #26252d;
+}
+
+.cv_data{
+	display: flex;
+}
+
+.cv_data .year{
+	padding-right: 35px;
+	width: 115px;
+	position: relative;
+}
+
+.cv .cv_right .cv_data .content{
+	padding-left: 35px;
+	margin-bottom: 20px;
+	width: calc(100% - 115px);
+}
+
+.cv_data .year:before{
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border: 1px solid #26252d;
+	border-radius: 50%;
+}
+
+.cv .cv_right .cv_data .year:after{
+	content: "";
+    position: absolute;
+    top: 17px;
+    right: 4px;
+    width: 3px;
+    height: 90%;
+    background: #0175b2;
+}
+
+.cv .cv_right .cv_data:last-child .year:after{
+	display: none;
+}
+
+.cv .cv_right .cv_interests .cv_info{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.cv_interests .interests .int_icon{
+	font-size: 38px;
+	color: #0175b2;
+	margin-bottom: 10px;
+}
+
